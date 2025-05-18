@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meine Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            padding: 14px 20px;
+            text-align: center;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Willkommen auf meiner Website!</h1>
+    </header>
+
+    <nav>
+        <a href="#home">Startseite</a>
+        <a href="#about">Über uns</a>
+        <a href="#services">Dienstleistungen</a>
+        <a href="#contact">Kontakt</a>
+    </nav>
+
+    <section id="home">
+        <h2>Startseite</h2>
+        <p>Dies ist der Bereich der Startseite. Hier kannst du allgemeine Informationen oder Willkommensnachrichten einfügen.</p>
+    </section>
+
+    <section id="about">
+        <h2>Über uns</h2>
+        <p>Hier kannst du Informationen über dein Unternehmen oder deine Person einfügen.</p>
+    </section>
+
+    <section id="services">
+        <h2>Dienstleistungen</h2>
+        <p>Beschreibe hier deine Dienstleistungen oder Produkte.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Kontakt</h2>
+        <p>Gib hier deine Kontaktdaten oder ein Kontaktformular an.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Meine Website</p>
+    </footer>
+
+</body>
+</html>
